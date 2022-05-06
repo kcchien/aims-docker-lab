@@ -8,6 +8,10 @@
 
 https://github.com/kcchien/aims-docker-lab
 
+## 投影片下載
+
+[投影片下載](https://raw.githubusercontent.com/kcchien/aims-docker-lab/main/Docker%E5%AF%A6%E4%BD%9C%E6%99%BA%E6%85%A7%E5%B7%A5%E5%BB%A0%E9%82%8A%E7%B7%A3%E9%81%8B%E7%AE%97%E7%B3%BB%E7%B5%B1.pdf)
+
 ## Play with Docker
 
 線上的 docker 測試環境

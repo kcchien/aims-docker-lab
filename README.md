@@ -80,8 +80,6 @@ docker rm webserver
 
 透過事先撰寫好的 docker-compose.yaml 檔案，直接一行指令完成部署多個服務
 
-以
-
 ```bash=
 # -d 參數代表要執行在背景的方式
 docker-compose up -d

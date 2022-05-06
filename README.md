@@ -12,7 +12,7 @@ https://labs.play-with-docker.com/
 
 > 帳號：`aims001` 密碼：`aims12345`
 
-![Play with docker lab](https://i.imgur.com/pIPmBM5.png =300x300)
+![Play with docker lab](https://i.imgur.com/pIPmBM5.png)
 
 ## 安裝 docker engine & docker compose
 

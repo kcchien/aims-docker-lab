@@ -4,7 +4,6 @@
 - 109005510 簡光正
 - 2022.05.07
 
-
 ## 課程內容 Git Repo
 
 https://github.com/kcchien/aims-docker-lab
@@ -165,4 +164,14 @@ volumes:
   nodered_data:
   grafana_data:
   influxdb_data:
+```
+
+## Extra Lab: Tersorflow with Jupyter server
+
+https://www.tensorflow.org/install/docker?hl=zh-tw
+
+使用 TensorFlow 啟動 Jupyter Notebook 伺服器, 無需 GPU 支援
+
+```bash=
+docker run -it --rm -p 8888:8888 tensorflow/tensorflow:nightly-jupyter
 ```

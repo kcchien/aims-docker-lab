@@ -88,6 +88,16 @@ docker rm webserver
 
 透過事先撰寫好的 docker-compose.yaml 檔案，直接一行指令完成部署多個服務
 
+用 wget 指令將這份 docker-compose.yaml 下載到電腦(linux/macOS)
+
+```bash=
+wget https://github.com/kcchien/aims-docker-lab/raw/main/docker-compose.yaml
+```
+
+或是下方連結右鍵檔案亦可
+
+[docker-compose.yaml](https://github.com/kcchien/aims-docker-lab/raw/main/docker-compose.yaml)
+
 ```bash=
 # -d 參數代表要執行在背景的方式
 docker-compose up -d
@@ -105,9 +115,9 @@ The services in the app run on the following ports:
 | --------- | -------- |
 | 3000      | Grafana  |
 | 8086      | InfluxDB |
-| 1880      | NodeRed  |
+| 1880      | Node-RED |
 
-docker-compose.yaml
+docker-compose.yaml 內容
 
 ```yaml=
 version: "3"
